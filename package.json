@@ -12,10 +12,11 @@
   "license": "ISC",
   "dependencies": {
     "express": "^4.19.2",
-    "express-handlebars": "^6.0.6",
+    "express-handlebars": "^8.0.1",
     "socket.io": "^4.7.5"
   },
   "engines": {
-    "node": ">=16.0.0"
+    "node": ">=20",
+    "npm": ">=10"
   }
 }
