@@ -5,9 +5,9 @@ const chatMessage = document.querySelector(".chatMessage");
 var uuid = "";
 //* Si el servidor de Socket.IO está en un puerto diferente del frontend, 
 //* debes especificarlo al inicializar la conexión.
-const socket = io("http://localhost:8080")
+// const socket = io("http://localhost:8080")
 // En nuestro caso solo con io() es suficiente ya que el servidor de Socket.IO está en el mismo puerto que el frontend.
-// const socket = io();
+const socket = io();
 
 var messages = [];
 
