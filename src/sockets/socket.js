@@ -11,6 +11,9 @@ const configureSockets = (server) => {
     console.log(`Usuario ${socket.id} conectado`);
 
     socket.on("userConnect", (data) => {
+      // const {user, id} = data 
+      // if(!user || !id){}
+      
       let message = {
         id: socket.id,
         info: "connection",
